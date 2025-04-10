@@ -19,4 +19,6 @@ phases:
       - echo '[{"name":"wild-rydes-app","imageUri":"'$AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/wild-rydes-app:latest'"}]' > imagedefinitions.json
 
 artifacts:
-  files: imagedefinitions.json
+  files: 
+  - imagedefinitions.json
+  - appspec.yml
