@@ -1,0 +1,9 @@
+{
+  "cluster": "final-stack-ECSCluster-L1wQy1PMPkWP",
+  "service": "final-stack-ECSService-Ms3UGUUnlUEM",
+  "deploymentConfiguration": {
+    "deploymentController": {
+      "type": "CODE_DEPLOY"
+    }
+  }
+}

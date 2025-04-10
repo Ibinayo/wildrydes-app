@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Welcome to Wild Rydes on Fargate! by Ibinayo'
+    return 'Welcome to Wild Rydes on Fargate! by Ibinayo.'
 
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 80))
